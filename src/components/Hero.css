@@ -1,0 +1,19 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  padding: 4rem;
+  background: var(--bg-primary);
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-right {
+  align-self: center;
+  justify-self: end;
+  color: var(--text-secondary);
+}

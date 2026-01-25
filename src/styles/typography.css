@@ -1,0 +1,39 @@
+.display-1 {
+  font-size: var(--display-1);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.heading-1 {
+  font-size: var(--heading-1);
+  font-weight: 700;
+}
+
+.heading-2 {
+  font-size: var(--heading-2);
+  font-weight: 700;
+}
+
+.heading-3 {
+  font-size: var(--heading-3);
+  font-weight: 700;
+}
+
+.heading-4 {
+  font-size: var(--heading-4);
+  font-weight: 700;
+}
+
+.body {
+  font-size: var(--body);
+  line-height: 1.6;
+}
+
+.small {
+  font-size: var(--small);
+}
+
+.link {
+  color: var(--accent);
+  text-decoration: underline;
+}
