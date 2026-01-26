@@ -1,0 +1,24 @@
+.custom-button {
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-size: var(--button);
+  font-weight: 550;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* Filled variant */
+.custom-button.filled {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: none;
+}
+
+/* Outlined variant */
+.custom-button.outlined {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 2px solid var(--bg-secondary);
+}

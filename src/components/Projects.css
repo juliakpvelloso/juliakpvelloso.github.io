@@ -1,0 +1,24 @@
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 500px;
+}
+
+.horizontal-container {
+  display: flex;         /* Enables flexbox layout */
+  flex-direction: row;   /* Horizontal layout */
+  gap: 50px;            /* Space between items */
+  align-items: center; /* Align items to the top */
+}

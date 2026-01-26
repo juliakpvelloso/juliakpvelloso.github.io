@@ -1,4 +1,4 @@
-.horizontal-container {
+.about-container {
   display: flex;
   justify-content: flex-start;  /* items align left initially */
   min-height: 100vh;
