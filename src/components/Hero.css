@@ -1,19 +1,21 @@
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.horizontal-container {
+  display: flex;
+  justify-content: flex-start;  /* items align left initially */
   min-height: 100vh;
-  padding: 4rem;
-  background: var(--bg-primary);
+  padding: 0 3.6rem;
 }
 
-.hero-left {
+
+.item.left-right {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  justify-content: center;         /* vertically center left/right text */
+  white-space: normal;
+  max-width: 350px;
 }
 
-.hero-right {
-  align-self: center;
-  justify-self: end;
-  color: var(--text-secondary);
+.item.center-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;       /* push photo to bottom */
 }

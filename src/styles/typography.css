@@ -4,6 +4,13 @@
   line-height: 1.2;
 }
 
+.display-blue {
+  font-size: var(--display-1);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--accent);
+}
+
 .heading-1 {
   font-size: var(--heading-1);
   font-weight: 700;
@@ -21,12 +28,23 @@
 
 .heading-4 {
   font-size: var(--heading-4);
-  font-weight: 700;
+  font-weight: 625;
+  margin-bottom: 0.5rem;
+}
+
+.nav-bar {
+  font-size: var(--heading-4);
+  font-weight: 625;
+  margin-bottom: 0.5rem;
+  color: var(--accent);
 }
 
 .body {
   font-size: var(--body);
   line-height: 1.6;
+  font-family: 'Nuosu SIL', sans-serif;
+  margin-bottom: 1rem;
+
 }
 
 .small {
