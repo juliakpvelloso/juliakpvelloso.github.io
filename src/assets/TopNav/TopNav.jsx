@@ -8,9 +8,12 @@ export default function TopNav() {
   return (
     <header className="top-nav">
       <nav>
-        <button className={`nav-button nav-bar ${location.pathname === "/" ? "active" : ""}`}>
-          About
+        <Link to="/">
+          <button className={`nav-button nav-bar ${location.pathname === "/" ? "active" : ""}`}>
+            About
         </button>
+        </Link>
+
         <Link to="/projects">
           <button className={`nav-button nav-bar ${location.pathname === "/projects" ? "active" : ""}`}>
             Projects

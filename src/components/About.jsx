@@ -1,6 +1,6 @@
 import "./About.css";
-import TopNav from "./TopNav"; // import your new top nav
-import juliaPhoto from "../assets/julia.png";
+import TopNav from "../assets/TopNav/TopNav"; // import your new top nav
+import juliaPhoto from "../assets/images/julia.png";
 
 export default function About() {
   return (

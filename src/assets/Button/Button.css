@@ -7,6 +7,7 @@
   transition: all 0.2s ease;
   display: inline-block;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 /* Filled variant */
@@ -21,4 +22,10 @@
   background-color: transparent;
   color: var(--text-primary);
   border: 2px solid var(--bg-secondary);
+  cursor:initial
+}
+
+.custom-button.large {
+  font-size: var(--heading-3);
+  font-weight: 700;
 }

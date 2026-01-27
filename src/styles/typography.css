@@ -44,7 +44,7 @@
   line-height: 1.6;
   font-family: 'Nuosu SIL', sans-serif;
   margin-bottom: 1rem;
-
+  white-space: pre-line;
 }
 
 .small {
