@@ -1,15 +1,15 @@
 /* Top-right nav bar container */
 .top-nav {
-  position: absolute;       /* stays on top */
-  top: 2rem;                /* distance from top */
-  right: 2rem;              /* distance from right */
-  z-index: 100;             /* ensures it stays above other content */
+  position: fixed;        /* sticks to the viewport */
+  top: 2rem;
+  right: 2rem;
+  z-index: 1000;
 }
 
 /* Make buttons inline with spacing */
 .top-nav nav {
   display: flex;
-  gap: 2rem;                /* space between buttons */
+  gap: 2rem;
 }
 
 /* Button styles */
@@ -24,11 +24,10 @@
 /* Underline for active page */
 .nav-button.active::after {
   content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: var(--accent);  /* underline color */
   position: absolute;
-  bottom: -4px;            /* distance below text */
   left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--accent);
 }

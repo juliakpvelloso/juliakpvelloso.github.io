@@ -1,21 +1,46 @@
 .about-container {
   display: flex;
-  justify-content: flex-start;  /* items align left initially */
+  justify-content: center;  /* items align left initially */
   min-height: 100vh;
   padding: 0 3.6rem;
 }
 
 
-.item.left-right {
+.item.text {
   display: flex;
   flex-direction: column;
-  justify-content: center;         /* vertically center left/right text */
+  justify-content: center;
   white-space: normal;
   max-width: 350px;
+}
+
+.item.text.left {
+  justify-content: center;
 }
 
 .item.center-photo {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;       /* push photo to bottom */
+}
+
+.profile-photo {
+  width: 700px;
+  height: auto;
+}
+
+
+@media (max-width: 480px) {
+  .about-container{
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;
+  }
+  .profile-photo{
+    width: 300px;
+    border: 2px solid var(--bg-secondary);
+  }
+  .item.text.left{
+    text-align: center; 
+  }
 }
